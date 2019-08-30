@@ -46,6 +46,10 @@ export default {
 </script>
 <style lang="less">
     .list {
-        height: calc(100% - 100px);
+        height: calc(100% - 40px);
+        overflow: auto;
+        .van-list {
+            height: 100%;
+        }
     }
 </style>

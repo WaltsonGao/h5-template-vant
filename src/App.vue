@@ -20,11 +20,15 @@
     body {
         height: 100%;
     }
+    #app {
+        height: 100%;
+    }
     .menu {
         position: fixed;
         bottom: 0;
         width: 100%;
         text-align: center;
+        background-color: #fff;
         box-shadow: 0 -3px 5px -5px #333;
         height: 40px;
         line-height: 40px;
